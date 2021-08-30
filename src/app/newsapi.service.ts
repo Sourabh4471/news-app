@@ -11,7 +11,7 @@ export class NewsapiService {
 
     newsApiUrl="https://newsapi.org/v2/top-headlines?country=us&apiKey=08eae57f47354fc2a46922e8bb2b38b4";
     techApiUrl="https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=08eae57f47354fc2a46922e8bb2b38b4"
-    businessApiUrl="https://newsapi.org/v2/everything?q=tesla&from=2021-07-30&sortBy=publishedAt&apiKey=08eae57f47354fc2a46922e8bb2b38b4";
+    businessApiUrl="https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=08eae57f47354fc2a46922e8bb2b38b4";
 
     sportsApiUrl="https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=08eae57f47354fc2a46922e8bb2b38b4";
     entertainmentApiUrl="https://newsapi.org/v2/top-headlines?country=us&category=entertainment&apiKey=08eae57f47354fc2a46922e8bb2b38b4"
