@@ -9,12 +9,12 @@ export class NewsapiService {
 
   constructor(private _http:HttpClient) { }
 
-    newsApiUrl="https://newsapi.org/v2/top-headlines?country=us&apiKey=08eae57f47354fc2a46922e8bb2b38b4";
-    techApiUrl="https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=08eae57f47354fc2a46922e8bb2b38b4"
-    businessApiUrl="https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=08eae57f47354fc2a46922e8bb2b38b4";
+    newsApiUrl="https://gnews.io/api/v4/top-headlines?country=in&lang=en&token=da6a3a7ed70a8f6bb80e8e01fa9d95ef";
+    techApiUrl="https://gnews.io/api/v4/top-headlines?country=in&topic=technology&lang=en&token=da6a3a7ed70a8f6bb80e8e01fa9d95ef"
+    businessApiUrl="https://gnews.io/api/v4/top-headlines?country=in&topic=business&lang=en&token=da6a3a7ed70a8f6bb80e8e01fa9d95ef";
 
-    sportsApiUrl="https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=08eae57f47354fc2a46922e8bb2b38b4";
-    entertainmentApiUrl="https://newsapi.org/v2/top-headlines?country=us&category=entertainment&apiKey=08eae57f47354fc2a46922e8bb2b38b4"
+    sportsApiUrl="https://gnews.io/api/v4/top-headlines?country=in&topic=sports&lang=en&token=da6a3a7ed70a8f6bb80e8e01fa9d95ef";
+    entertainmentApiUrl="https://gnews.io/api/v4/top-headlines?country=us&topic=entertainment&lang=en&token=da6a3a7ed70a8f6bb80e8e01fa9d95ef"
 
     topHeading():Observable<any>
     {
